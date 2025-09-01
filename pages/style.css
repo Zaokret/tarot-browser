@@ -1,0 +1,7 @@
+html body img {
+    max-height: 400px;
+    width: auto;
+    display: block;
+    margin: auto;
+    height: 100%;
+}
