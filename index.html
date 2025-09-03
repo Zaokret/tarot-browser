@@ -44,7 +44,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 0.5rem;
-    /* padding: 1rem; */
+    padding: 1rem;
   }
 
   .card {
@@ -120,12 +120,21 @@ img {
     display: inline-block;
     cursor: pointer;
   }
+
+  #sticky-footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      z-index: 100;
+      background: black;
+    }
 </style>
 </head>
 <body>
 
-<header>Tarot Card Explorer</header>
-
+<div id="sticky-footer">
 <div class="controls">
   <span id="random-button" class="input-buttons">🔁</span>
   <input type="text" id="search" placeholder="Search card by name...">
@@ -145,12 +154,16 @@ img {
   <button data-deck="marseille">Marseille</button>
   <button data-deck="thoth">Thoth</button>
 </div>
+</div>
 
 <div class="grid" id="cardGrid"></div>
 
 <script>
-  fetch('index.json').then(res => res.json()).then(cards => {
+  const cachedCards = localStorage.getItem('tb_cards')
+  const req = cachedCards ? Promise.resolve(JSON.parse(cachedCards)) : fetch('index.json').then(res => res.json())
 
+  req.then(cards => {
+  localStorage.setItem('tb_cards', JSON.stringify(cards))
 let currentDeck = 'rider';
 
 const grid = document.getElementById('cardGrid');

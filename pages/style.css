@@ -5,3 +5,37 @@ html body img {
     margin: auto;
     height: 100%;
 }
+
+#sticky-footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      z-index: 100;
+      background: rgb(42, 42, 42);
+      display: flex;
+      justify-content: center;
+      font-size: 2rem;
+      color: white;
+}
+
+#sticky-footer div {
+    width: 100%;
+    height: 100%;
+    border: 2px solid gray;
+}
+
+
+#sticky-footer a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-justify: center;
+    text-align: center;
+}
+
+div#home-link-wrapper {
+    width: 200px;
+
+}

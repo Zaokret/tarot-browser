@@ -253,6 +253,149 @@
         "details": "./pages/w01.html"
     },
     {
+        "number": 2,
+        "name": "Two of Wands",
+        "suit": "Wands",
+        "astrology": "Mars in Aries",
+        "qabalah": "Chokmah of Yod י",
+        "rider": "./rider/w02.jpg",
+        "marseille": "./marseille/w02.jpg",
+        "thoth": "./thoth/w02.jpg",
+        "details": "./pages/w02.html"
+    },
+    {
+        "number": 3,
+        "name": "Three of Wands",
+        "suit": "Wands",
+        "astrology": "Sun in Aries",
+        "qabalah": "Binah of Yod י",
+        "rider": "./rider/w03.jpg",
+        "marseille": "./marseille/w03.jpg",
+        "thoth": "./thoth/w03.jpg",
+        "details": "./pages/w03.html"
+    },
+    {
+        "number": 4,
+        "name": "Four of Wands",
+        "suit": "Wands",
+        "astrology": "Venus in Aries",
+        "qabalah": "Chesed of Yod י",
+        "rider": "./rider/w04.jpg",
+        "marseille": "./marseille/w04.jpg",
+        "thoth": "./thoth/w04.jpg",
+        "details": "./pages/w04.html"
+    },
+    {
+        "number": 5,
+        "name": "Five of Wands",
+        "suit": "Wands",
+        "astrology": "Saturn in Leo",
+        "qabalah": "Gevurah of Yod י",
+        "rider": "./rider/w05.jpg",
+        "marseille": "./marseille/w05.jpg",
+        "thoth": "./thoth/w05.jpg",
+        "details": "./pages/w05.html"
+    },
+    {
+        "number": 6,
+        "name": "Six of Wands",
+        "suit": "Wands",
+        "astrology": "Jupiter in Leo",
+        "qabalah": "Tiphereth of Yod י",
+        "rider": "./rider/w06.jpg",
+        "marseille": "./marseille/w06.jpg",
+        "thoth": "./thoth/w06.jpg",
+        "details": "./pages/w06.html"
+    },
+    {
+        "number": 7,
+        "name": "Seven of Wands",
+        "suit": "Wands",
+        "astrology": "Mars in Leo",
+        "qabalah": "Netzach of Yod י",
+        "rider": "./rider/w07.jpg",
+        "marseille": "./marseille/w07.jpg",
+        "thoth": "./thoth/w07.jpg",
+        "details": "./pages/w07.html"
+    },
+    {
+        "number": 8,
+        "name": "Eight of Wands",
+        "suit": "Wands",
+        "astrology": "Mercury in Sagittarius",
+        "qabalah": "Hod of Yod י",
+        "rider": "./rider/w08.jpg",
+        "marseille": "./marseille/w08.jpg",
+        "thoth": "./thoth/w08.jpg",
+        "details": "./pages/w08.html"
+    },
+    {
+        "number": 9,
+        "name": "Nine of Wands",
+        "suit": "Wands",
+        "astrology": "Moon in Sagittarius",
+        "qabalah": "Yesod of Yod י",
+        "rider": "./rider/w09.jpg",
+        "marseille": "./marseille/w09.jpg",
+        "thoth": "./thoth/w09.jpg",
+        "details": "./pages/w09.html"
+    },
+    {
+        "number": 10,
+        "name": "Ten of Wands",
+        "suit": "Wands",
+        "astrology": "Saturn in Sagittarius",
+        "qabalah": "Malkuth of Yod י",
+        "rider": "./rider/w10.jpg",
+        "marseille": "./marseille/w10.jpg",
+        "thoth": "./thoth/w10.jpg",
+        "details": "./pages/w10.html"
+    },
+    {
+        "number": 11,
+        "name": "Page of Wands",
+        "suit": "Wands",
+        "astrology": "Earth of Fire",
+        "qabalah": "He ה of Yod י",
+        "rider": "./rider/w11.jpg",
+        "marseille": "./marseille/w11.jpg",
+        "thoth": "./thoth/w11.jpg",
+        "details": "./pages/w11.html"
+    },
+    {
+        "number": 12,
+        "name": "Knight of Wands",
+        "suit": "Wands",
+        "astrology": "Sagittarius",
+        "qabalah": "Yod י of Yod י",
+        "rider": "./rider/w12.jpg",
+        "marseille": "./marseille/w12.jpg",
+        "thoth": "./thoth/w12.jpg",
+        "details": "./pages/w12.html"
+    },
+    {
+        "number": 13,
+        "name": "Queen of Wands",
+        "suit": "Wands",
+        "astrology": "Aries, Water of Fire",
+        "qabalah": "He ה of Yod י",
+        "rider": "./rider/w13.jpg",
+        "marseille": "./marseille/w13.jpg",
+        "thoth": "./thoth/w13.jpg",
+        "details": "./pages/w13.html"
+    },
+    {
+        "number": 14,
+        "name": "King / Prince of Wands",
+        "suit": "Wands",
+        "astrology": "Leo, Air of Fire",
+        "qabalah": "Vau ו of Yod י",
+        "rider": "./rider/w14.jpg",
+        "marseille": "./marseille/w14.jpg",
+        "thoth": "./thoth/w14.jpg",
+        "details": "./pages/w14.html"
+    },
+    {
         "number": 1,
         "name": "Ace of Cups",
         "suit": "Cups",
@@ -264,6 +407,149 @@
         "details": "./pages/c01.html"
     },
     {
+        "number": 2,
+        "name": "Two of Cups",
+        "suit": "Cups",
+        "astrology": "Venus in Cancer",
+        "qabalah": "Chokmah of He ה",
+        "rider": "./rider/c02.jpg",
+        "marseille": "./marseille/c02.jpg",
+        "thoth": "./thoth/c02.jpg",
+        "details": "./pages/c02.html"
+    },
+    {
+        "number": 3,
+        "name": "Three of Cups",
+        "suit": "Cups",
+        "astrology": "Mercury in Cancer",
+        "qabalah": "Binah of He ה",
+        "rider": "./rider/c03.jpg",
+        "marseille": "./marseille/c03.jpg",
+        "thoth": "./thoth/c03.jpg",
+        "details": "./pages/c03.html"
+    },
+    {
+        "number": 4,
+        "name": "Four of Cups",
+        "suit": "Cups",
+        "astrology": "Moon in Cancer",
+        "qabalah": "Chesed of He ה",
+        "rider": "./rider/c04.jpg",
+        "marseille": "./marseille/c04.jpg",
+        "thoth": "./thoth/c04.jpg",
+        "details": "./pages/c04.html"
+    },
+    {
+        "number": 5,
+        "name": "Five of Cups",
+        "suit": "Cups",
+        "astrology": "Mars in Scorpio",
+        "qabalah": "Gevurah of He ה",
+        "rider": "./rider/c05.jpg",
+        "marseille": "./marseille/c05.jpg",
+        "thoth": "./thoth/c05.jpg",
+        "details": "./pages/c05.html"
+    },
+    {
+        "number": 6,
+        "name": "Six of Cups",
+        "suit": "Cups",
+        "astrology": "Sun in Scorpio",
+        "qabalah": "Tiphereth of He ה",
+        "rider": "./rider/c06.jpg",
+        "marseille": "./marseille/c06.jpg",
+        "thoth": "./thoth/c06.jpg",
+        "details": "./pages/c06.html"
+    },
+    {
+        "number": 7,
+        "name": "Seven of Cups",
+        "suit": "Cups",
+        "astrology": "Venus in Scorpio",
+        "qabalah": "Netzach of He ה",
+        "rider": "./rider/c07.jpg",
+        "marseille": "./marseille/c07.jpg",
+        "thoth": "./thoth/c07.jpg",
+        "details": "./pages/c07.html"
+    },
+    {
+        "number": 8,
+        "name": "Eight of Cups",
+        "suit": "Cups",
+        "astrology": "Saturn in Pisces",
+        "qabalah": "Hod of He ה",
+        "rider": "./rider/c08.jpg",
+        "marseille": "./marseille/c08.jpg",
+        "thoth": "./thoth/c08.jpg",
+        "details": "./pages/c08.html"
+    },
+    {
+        "number": 9,
+        "name": "Nine of Cups",
+        "suit": "Cups",
+        "astrology": "Jupiter in Pisces",
+        "qabalah": "Yesod of He ה",
+        "rider": "./rider/c09.jpg",
+        "marseille": "./marseille/c09.jpg",
+        "thoth": "./thoth/c09.jpg",
+        "details": "./pages/c09.html"
+    },
+    {
+        "number": 10,
+        "name": "Ten of Cups",
+        "suit": "Cups",
+        "astrology": "Mars in Pisces",
+        "qabalah": "Malkuth of He ה",
+        "rider": "./rider/c10.jpg",
+        "marseille": "./marseille/c10.jpg",
+        "thoth": "./thoth/c10.jpg",
+        "details": "./pages/c10.html"
+    },
+    {
+        "number": 11,
+        "name": "Page / Princess of Cups",
+        "suit": "Cups",
+        "astrology": "Earth of Water",
+        "qabalah": "He ה of He ה",
+        "rider": "./rider/c11.jpg",
+        "marseille": "./marseille/c11.jpg",
+        "thoth": "./thoth/c11.jpg",
+        "details": "./pages/c11.html"
+    },
+    {
+        "number": 12,
+        "name": "Knight of Cups",
+        "suit": "Cups",
+        "astrology": "Pisces, Fire of Water",
+        "qabalah": "Yod י of He ה",
+        "rider": "./rider/c12.jpg",
+        "marseille": "./marseille/c12.jpg",
+        "thoth": "./thoth/c12.jpg",
+        "details": "./pages/c12.html"
+    },
+    {
+        "number": 13,
+        "name": "Queen of Cups",
+        "suit": "Cups",
+        "astrology": "Cancer, Water of Water",
+        "qabalah": "He ה of He ה",
+        "rider": "./rider/c13.jpg",
+        "marseille": "./marseille/c13.jpg",
+        "thoth": "./thoth/c13.jpg",
+        "details": "./pages/c13.html"
+    },
+    {
+        "number": 14,
+        "name": "King / Prince of Cups",
+        "suit": "Cups",
+        "astrology": "Scorpio, Air of Water",
+        "qabalah": "Vau ו of He ה",
+        "rider": "./rider/c14.jpg",
+        "marseille": "./marseille/c14.jpg",
+        "thoth": "./thoth/c14.jpg",
+        "details": "./pages/c14.html"
+    },
+    {
         "number": 1,
         "name": "Ace of Swords",
         "suit": "Swords",
@@ -273,6 +559,149 @@
         "marseille": "./marseille/s01.jpg",
         "thoth": "./thoth/s01.jpg",
         "details": "./pages/s01.html"
+    },
+    {
+        "number": 2,
+        "name": "Two of Swords",
+        "suit": "Swords",
+        "astrology": "Moon in Libra",
+        "qabalah": "Chokmah of Vau ו",
+        "rider": "./rider/s02.jpg",
+        "marseille": "./marseille/s02.jpg",
+        "thoth": "./thoth/s02.jpg",
+        "details": "./pages/s02.html"
+    },
+    {
+        "number": 3,
+        "name": "Three of Swords",
+        "suit": "Swords",
+        "astrology": "Saturn in Libra",
+        "qabalah": "Binah of Vau ו",
+        "rider": "./rider/s03.jpg",
+        "marseille": "./marseille/s03.jpg",
+        "thoth": "./thoth/s03.jpg",
+        "details": "./pages/s03.html"
+    },
+    {
+        "number": 4,
+        "name": "Four of Swords",
+        "suit": "Swords",
+        "astrology": "Jupiter in Libra",
+        "qabalah": "Chesed of Vau ו",
+        "rider": "./rider/s04.jpg",
+        "marseille": "./marseille/s04.jpg",
+        "thoth": "./thoth/s04.jpg",
+        "details": "./pages/s04.html"
+    },
+    {
+        "number": 5,
+        "name": "Five of Swords",
+        "suit": "Swords",
+        "astrology": "Venus in Aquarius",
+        "qabalah": "Gevurah of Vau ו",
+        "rider": "./rider/s05.jpg",
+        "marseille": "./marseille/s05.jpg",
+        "thoth": "./thoth/s05.jpg",
+        "details": "./pages/s05.html"
+    },
+    {
+        "number": 6,
+        "name": "Six of Swords",
+        "suit": "Swords",
+        "astrology": "Mercury in Aquarius",
+        "qabalah": "Tiphereth of Vau ו",
+        "rider": "./rider/s06.jpg",
+        "marseille": "./marseille/s06.jpg",
+        "thoth": "./thoth/s06.jpg",
+        "details": "./pages/s06.html"
+    },
+    {
+        "number": 7,
+        "name": "Seven of Swords",
+        "suit": "Swords",
+        "astrology": "Moon in Aquarius",
+        "qabalah": "Netzach of Vau ו",
+        "rider": "./rider/s07.jpg",
+        "marseille": "./marseille/s07.jpg",
+        "thoth": "./thoth/s07.jpg",
+        "details": "./pages/s07.html"
+    },
+    {
+        "number": 8,
+        "name": "Eight of Swords",
+        "suit": "Swords",
+        "astrology": "Jupiter in Gemini",
+        "qabalah": "Hod of Vau ו",
+        "rider": "./rider/s08.jpg",
+        "marseille": "./marseille/s08.jpg",
+        "thoth": "./thoth/s08.jpg",
+        "details": "./pages/s08.html"
+    },
+    {
+        "number": 9,
+        "name": "Nine of Swords",
+        "suit": "Swords",
+        "astrology": "Mars in Gemini",
+        "qabalah": "Yesod of Vau ו",
+        "rider": "./rider/s09.jpg",
+        "marseille": "./marseille/s09.jpg",
+        "thoth": "./thoth/s09.jpg",
+        "details": "./pages/s09.html"
+    },
+    {
+        "number": 10,
+        "name": "Ten of Swords",
+        "suit": "Swords",
+        "astrology": "Sun in Gemini",
+        "qabalah": "Malkuth of Vau ו",
+        "rider": "./rider/s10.jpg",
+        "marseille": "./marseille/s10.jpg",
+        "thoth": "./thoth/s10.jpg",
+        "details": "./pages/s10.html"
+    },
+    {
+        "number": 11,
+        "name": "Page of Swords",
+        "suit": "Swords",
+        "astrology": "Earth of Air",
+        "qabalah": "He ה of Vau ו",
+        "rider": "./rider/s11.jpg",
+        "marseille": "./marseille/s11.jpg",
+        "thoth": "./thoth/s11.jpg",
+        "details": "./pages/s11.html"
+    },
+    {
+        "number": 12,
+        "name": "Knight of Swords",
+        "suit": "Swords",
+        "astrology": "Gemini",
+        "qabalah": "Yod י of Vau ו",
+        "rider": "./rider/s12.jpg",
+        "marseille": "./marseille/s12.jpg",
+        "thoth": "./thoth/s12.jpg",
+        "details": "./pages/s12.html"
+    },
+    {
+        "number": 13,
+        "name": "Queen of Swords",
+        "suit": "Swords",
+        "astrology": "Libra, Water of Air",
+        "qabalah": "He ה of Vau ו",
+        "rider": "./rider/s13.jpg",
+        "marseille": "./marseille/s13.jpg",
+        "thoth": "./thoth/s13.jpg",
+        "details": "./pages/s13.html"
+    },
+    {
+        "number": 14,
+        "name": "King of Swords",
+        "suit": "Swords",
+        "astrology": "Aquarius",
+        "qabalah": "Vau ו of Vau ו",
+        "rider": "./rider/s14.jpg",
+        "marseille": "./marseille/s14.jpg",
+        "thoth": "./thoth/s14.jpg",
+        "details": "./pages/s14.html"
     },
     {
         "number": 1,
@@ -287,39 +716,6 @@
     },
     {
         "number": 2,
-        "name": "Two of Wands",
-        "suit": "Wands",
-        "astrology": "Mars in Aries",
-        "qabalah": "Chokmah of Yod י",
-        "rider": "./rider/w02.jpg",
-        "marseille": "./marseille/w02.jpg",
-        "thoth": "./thoth/w02.jpg",
-        "details": "./pages/w02.html"
-    },
-    {
-        "number": 2,
-        "name": "Two of Cups",
-        "suit": "Cups",
-        "astrology": "Venus in Cancer",
-        "qabalah": "Chokmah of He ה",
-        "rider": "./rider/c02.jpg",
-        "marseille": "./marseille/c02.jpg",
-        "thoth": "./thoth/c02.jpg",
-        "details": "./pages/c02.html"
-    },
-    {
-        "number": 2,
-        "name": "Two of Swords",
-        "suit": "Swords",
-        "astrology": "Moon in Libra",
-        "qabalah": "Chokmah of Vau ו",
-        "rider": "./rider/s02.jpg",
-        "marseille": "./marseille/s02.jpg",
-        "thoth": "./thoth/s02.jpg",
-        "details": "./pages/s02.html"
-    },
-    {
-        "number": 2,
         "name": "Two of Disks",
         "suit": "Disks",
         "astrology": "Jupiter in Capricorn",
@@ -328,39 +724,6 @@
         "marseille": "./marseille/d02.jpg",
         "thoth": "./thoth/d02.jpg",
         "details": "./pages/d02.html"
-    },
-    {
-        "number": 3,
-        "name": "Three of Wands",
-        "suit": "Wands",
-        "astrology": "Sun in Aries",
-        "qabalah": "Binah of Yod י",
-        "rider": "./rider/w03.jpg",
-        "marseille": "./marseille/w03.jpg",
-        "thoth": "./thoth/w03.jpg",
-        "details": "./pages/w03.html"
-    },
-    {
-        "number": 3,
-        "name": "Three of Cups",
-        "suit": "Cups",
-        "astrology": "Mercury in Cancer",
-        "qabalah": "Binah of He ה",
-        "rider": "./rider/c03.jpg",
-        "marseille": "./marseille/c03.jpg",
-        "thoth": "./thoth/c03.jpg",
-        "details": "./pages/c03.html"
-    },
-    {
-        "number": 3,
-        "name": "Three of Swords",
-        "suit": "Swords",
-        "astrology": "Saturn in Libra",
-        "qabalah": "Binah of Vau ו",
-        "rider": "./rider/s03.jpg",
-        "marseille": "./marseille/s03.jpg",
-        "thoth": "./thoth/s03.jpg",
-        "details": "./pages/s03.html"
     },
     {
         "number": 3,
@@ -375,39 +738,6 @@
     },
     {
         "number": 4,
-        "name": "Four of Wands",
-        "suit": "Wands",
-        "astrology": "Venus in Aries",
-        "qabalah": "Chesed of Yod י",
-        "rider": "./rider/w04.jpg",
-        "marseille": "./marseille/w04.jpg",
-        "thoth": "./thoth/w04.jpg",
-        "details": "./pages/w04.html"
-    },
-    {
-        "number": 4,
-        "name": "Four of Cups",
-        "suit": "Cups",
-        "astrology": "Moon in Cancer",
-        "qabalah": "Chesed of He ה",
-        "rider": "./rider/c04.jpg",
-        "marseille": "./marseille/c04.jpg",
-        "thoth": "./thoth/c04.jpg",
-        "details": "./pages/c04.html"
-    },
-    {
-        "number": 4,
-        "name": "Four of Swords",
-        "suit": "Swords",
-        "astrology": "Jupiter in Libra",
-        "qabalah": "Chesed of Vau ו",
-        "rider": "./rider/s04.jpg",
-        "marseille": "./marseille/s04.jpg",
-        "thoth": "./thoth/s04.jpg",
-        "details": "./pages/s04.html"
-    },
-    {
-        "number": 4,
         "name": "Four of Disks",
         "suit": "Disks",
         "astrology": "Sun in Capricorn",
@@ -416,39 +746,6 @@
         "marseille": "./marseille/d04.jpg",
         "thoth": "./thoth/d04.jpg",
         "details": "./pages/d04.html"
-    },
-    {
-        "number": 5,
-        "name": "Five of Wands",
-        "suit": "Wands",
-        "astrology": "Saturn in Leo",
-        "qabalah": "Gevurah of Yod י",
-        "rider": "./rider/w05.jpg",
-        "marseille": "./marseille/w05.jpg",
-        "thoth": "./thoth/w05.jpg",
-        "details": "./pages/w05.html"
-    },
-    {
-        "number": 5,
-        "name": "Five of Cups",
-        "suit": "Cups",
-        "astrology": "Mars in Scorpio",
-        "qabalah": "Gevurah of He ה",
-        "rider": "./rider/c05.jpg",
-        "marseille": "./marseille/c05.jpg",
-        "thoth": "./thoth/c05.jpg",
-        "details": "./pages/c05.html"
-    },
-    {
-        "number": 5,
-        "name": "Five of Swords",
-        "suit": "Swords",
-        "astrology": "Venus in Aquarius",
-        "qabalah": "Gevurah of Vau ו",
-        "rider": "./rider/s05.jpg",
-        "marseille": "./marseille/s05.jpg",
-        "thoth": "./thoth/s05.jpg",
-        "details": "./pages/s05.html"
     },
     {
         "number": 5,
@@ -463,39 +760,6 @@
     },
     {
         "number": 6,
-        "name": "Six of Wands",
-        "suit": "Wands",
-        "astrology": "Jupiter in Leo",
-        "qabalah": "Tiphereth of Yod י",
-        "rider": "./rider/w06.jpg",
-        "marseille": "./marseille/w06.jpg",
-        "thoth": "./thoth/w06.jpg",
-        "details": "./pages/w06.html"
-    },
-    {
-        "number": 6,
-        "name": "Six of Cups",
-        "suit": "Cups",
-        "astrology": "Sun in Scorpio",
-        "qabalah": "Tiphereth of He ה",
-        "rider": "./rider/c06.jpg",
-        "marseille": "./marseille/c06.jpg",
-        "thoth": "./thoth/c06.jpg",
-        "details": "./pages/c06.html"
-    },
-    {
-        "number": 6,
-        "name": "Six of Swords",
-        "suit": "Swords",
-        "astrology": "Mercury in Aquarius",
-        "qabalah": "Tiphereth of Vau ו",
-        "rider": "./rider/s06.jpg",
-        "marseille": "./marseille/s06.jpg",
-        "thoth": "./thoth/s06.jpg",
-        "details": "./pages/s06.html"
-    },
-    {
-        "number": 6,
         "name": "Six of Disks",
         "suit": "Disks",
         "astrology": "Moon in Taurus",
@@ -504,39 +768,6 @@
         "marseille": "./marseille/d06.jpg",
         "thoth": "./thoth/d06.jpg",
         "details": "./pages/d06.html"
-    },
-    {
-        "number": 7,
-        "name": "Seven of Wands",
-        "suit": "Wands",
-        "astrology": "Mars in Leo",
-        "qabalah": "Netzach of Yod י",
-        "rider": "./rider/w07.jpg",
-        "marseille": "./marseille/w07.jpg",
-        "thoth": "./thoth/w07.jpg",
-        "details": "./pages/w07.html"
-    },
-    {
-        "number": 7,
-        "name": "Seven of Cups",
-        "suit": "Cups",
-        "astrology": "Venus in Scorpio",
-        "qabalah": "Netzach of He ה",
-        "rider": "./rider/c07.jpg",
-        "marseille": "./marseille/c07.jpg",
-        "thoth": "./thoth/c07.jpg",
-        "details": "./pages/c07.html"
-    },
-    {
-        "number": 7,
-        "name": "Seven of Swords",
-        "suit": "Swords",
-        "astrology": "Moon in Aquarius",
-        "qabalah": "Netzach of Vau ו",
-        "rider": "./rider/s07.jpg",
-        "marseille": "./marseille/s07.jpg",
-        "thoth": "./thoth/s07.jpg",
-        "details": "./pages/s07.html"
     },
     {
         "number": 7,
@@ -551,39 +782,6 @@
     },
     {
         "number": 8,
-        "name": "Eight of Wands",
-        "suit": "Wands",
-        "astrology": "Mercury in Sagittarius",
-        "qabalah": "Hod of Yod י",
-        "rider": "./rider/w08.jpg",
-        "marseille": "./marseille/w08.jpg",
-        "thoth": "./thoth/w08.jpg",
-        "details": "./pages/w08.html"
-    },
-    {
-        "number": 8,
-        "name": "Eight of Cups",
-        "suit": "Cups",
-        "astrology": "Saturn in Pisces",
-        "qabalah": "Hod of He ה",
-        "rider": "./rider/c08.jpg",
-        "marseille": "./marseille/c08.jpg",
-        "thoth": "./thoth/c08.jpg",
-        "details": "./pages/c08.html"
-    },
-    {
-        "number": 8,
-        "name": "Eight of Swords",
-        "suit": "Swords",
-        "astrology": "Jupiter in Gemini",
-        "qabalah": "Hod of Vau ו",
-        "rider": "./rider/s08.jpg",
-        "marseille": "./marseille/s08.jpg",
-        "thoth": "./thoth/s08.jpg",
-        "details": "./pages/s08.html"
-    },
-    {
-        "number": 8,
         "name": "Eight of Disks",
         "suit": "Disks",
         "astrology": "Sun in Virgo",
@@ -592,39 +790,6 @@
         "marseille": "./marseille/d08.jpg",
         "thoth": "./thoth/d08.jpg",
         "details": "./pages/d08.html"
-    },
-    {
-        "number": 9,
-        "name": "Nine of Wands",
-        "suit": "Wands",
-        "astrology": "Moon in Sagittarius",
-        "qabalah": "Yesod of Yod י",
-        "rider": "./rider/w09.jpg",
-        "marseille": "./marseille/w09.jpg",
-        "thoth": "./thoth/w09.jpg",
-        "details": "./pages/w09.html"
-    },
-    {
-        "number": 9,
-        "name": "Nine of Cups",
-        "suit": "Cups",
-        "astrology": "Jupiter in Pisces",
-        "qabalah": "Yesod of He ה",
-        "rider": "./rider/c09.jpg",
-        "marseille": "./marseille/c09.jpg",
-        "thoth": "./thoth/c09.jpg",
-        "details": "./pages/c09.html"
-    },
-    {
-        "number": 9,
-        "name": "Nine of Swords",
-        "suit": "Swords",
-        "astrology": "Mars in Gemini",
-        "qabalah": "Yesod of Vau ו",
-        "rider": "./rider/s09.jpg",
-        "marseille": "./marseille/s09.jpg",
-        "thoth": "./thoth/s09.jpg",
-        "details": "./pages/s09.html"
     },
     {
         "number": 9,
@@ -639,39 +804,6 @@
     },
     {
         "number": 10,
-        "name": "Ten of Wands",
-        "suit": "Wands",
-        "astrology": "Saturn in Sagittarius",
-        "qabalah": "Malkuth of Yod י",
-        "rider": "./rider/w10.jpg",
-        "marseille": "./marseille/w10.jpg",
-        "thoth": "./thoth/w10.jpg",
-        "details": "./pages/w10.html"
-    },
-    {
-        "number": 10,
-        "name": "Ten of Cups",
-        "suit": "Cups",
-        "astrology": "Mars in Pisces",
-        "qabalah": "Malkuth of He ה",
-        "rider": "./rider/c10.jpg",
-        "marseille": "./marseille/c10.jpg",
-        "thoth": "./thoth/c10.jpg",
-        "details": "./pages/c10.html"
-    },
-    {
-        "number": 10,
-        "name": "Ten of Swords",
-        "suit": "Swords",
-        "astrology": "Sun in Gemini",
-        "qabalah": "Malkuth of Vau ו",
-        "rider": "./rider/s10.jpg",
-        "marseille": "./marseille/s10.jpg",
-        "thoth": "./thoth/s10.jpg",
-        "details": "./pages/s10.html"
-    },
-    {
-        "number": 10,
         "name": "Ten of Disks",
         "suit": "Disks",
         "astrology": "Mercury in Virgo",
@@ -680,39 +812,6 @@
         "marseille": "./marseille/d10.jpg",
         "thoth": "./thoth/d10.jpg",
         "details": "./pages/d10.html"
-    },
-    {
-        "number": 11,
-        "name": "Page of Wands",
-        "suit": "Wands",
-        "astrology": "Earth of Fire",
-        "qabalah": "He ה of Yod י",
-        "rider": "./rider/w11.jpg",
-        "marseille": "./marseille/w11.jpg",
-        "thoth": "./thoth/w11.jpg",
-        "details": "./pages/w11.html"
-    },
-    {
-        "number": 11,
-        "name": "Page / Princess of Cups",
-        "suit": "Cups",
-        "astrology": "Earth of Water",
-        "qabalah": "He ה of He ה",
-        "rider": "./rider/c11.jpg",
-        "marseille": "./marseille/c11.jpg",
-        "thoth": "./thoth/c11.jpg",
-        "details": "./pages/c11.html"
-    },
-    {
-        "number": 11,
-        "name": "Page of Swords",
-        "suit": "Swords",
-        "astrology": "Earth of Air",
-        "qabalah": "He ה of Vau ו",
-        "rider": "./rider/s11.jpg",
-        "marseille": "./marseille/s11.jpg",
-        "thoth": "./thoth/s11.jpg",
-        "details": "./pages/s11.html"
     },
     {
         "number": 11,
@@ -727,39 +826,6 @@
     },
     {
         "number": 12,
-        "name": "Knight of Wands",
-        "suit": "Wands",
-        "astrology": "Sagittarius",
-        "qabalah": "Yod י of Yod י",
-        "rider": "./rider/w12.jpg",
-        "marseille": "./marseille/w12.jpg",
-        "thoth": "./thoth/w12.jpg",
-        "details": "./pages/w12.html"
-    },
-    {
-        "number": 12,
-        "name": "Knight of Cups",
-        "suit": "Cups",
-        "astrology": "Pisces, Fire of Water",
-        "qabalah": "Yod י of He ה",
-        "rider": "./rider/c12.jpg",
-        "marseille": "./marseille/c12.jpg",
-        "thoth": "./thoth/c12.jpg",
-        "details": "./pages/c12.html"
-    },
-    {
-        "number": 12,
-        "name": "Knight of Swords",
-        "suit": "Swords",
-        "astrology": "Gemini",
-        "qabalah": "Yod י of Vau ו",
-        "rider": "./rider/s12.jpg",
-        "marseille": "./marseille/s12.jpg",
-        "thoth": "./thoth/s12.jpg",
-        "details": "./pages/s12.html"
-    },
-    {
-        "number": 12,
         "name": "Knight of Disks",
         "suit": "Disks",
         "astrology": "Virgo, Fire of Earth",
@@ -771,39 +837,6 @@
     },
     {
         "number": 13,
-        "name": "Queen of Wands",
-        "suit": "Wands",
-        "astrology": "Aries, Water of Fire",
-        "qabalah": "He ה of Yod י",
-        "rider": "./rider/w13.jpg",
-        "marseille": "./marseille/w13.jpg",
-        "thoth": "./thoth/w13.jpg",
-        "details": "./pages/w13.html"
-    },
-    {
-        "number": 13,
-        "name": "Queen of Cups",
-        "suit": "Cups",
-        "astrology": "Cancer, Water of Water",
-        "qabalah": "He ה of He ה",
-        "rider": "./rider/c13.jpg",
-        "marseille": "./marseille/c13.jpg",
-        "thoth": "./thoth/c13.jpg",
-        "details": "./pages/c13.html"
-    },
-    {
-        "number": 13,
-        "name": "Queen of Swords",
-        "suit": "Swords",
-        "astrology": "Libra, Water of Air",
-        "qabalah": "He ה of Vau ו",
-        "rider": "./rider/s13.jpg",
-        "marseille": "./marseille/s13.jpg",
-        "thoth": "./thoth/s13.jpg",
-        "details": "./pages/s13.html"
-    },
-    {
-        "number": 13,
         "name": "Queen of Disks",
         "suit": "Disks",
         "astrology": "Capricorn",
@@ -812,39 +845,6 @@
         "marseille": "./marseille/d13.jpg",
         "thoth": "./thoth/d13.jpg",
         "details": "./pages/d13.html"
-    },
-    {
-        "number": 14,
-        "name": "King / Prince of Wands",
-        "suit": "Wands",
-        "astrology": "Leo, Air of Fire",
-        "qabalah": "Vau ו of Yod י",
-        "rider": "./rider/w14.jpg",
-        "marseille": "./marseille/w14.jpg",
-        "thoth": "./thoth/w14.jpg",
-        "details": "./pages/w14.html"
-    },
-    {
-        "number": 14,
-        "name": "King / Prince of Cups",
-        "suit": "Cups",
-        "astrology": "Scorpio, Air of Water",
-        "qabalah": "Vau ו of He ה",
-        "rider": "./rider/c14.jpg",
-        "marseille": "./marseille/c14.jpg",
-        "thoth": "./thoth/c14.jpg",
-        "details": "./pages/c14.html"
-    },
-    {
-        "number": 14,
-        "name": "King of Swords",
-        "suit": "Swords",
-        "astrology": "Aquarius",
-        "qabalah": "Vau ו of Vau ו",
-        "rider": "./rider/s14.jpg",
-        "marseille": "./marseille/s14.jpg",
-        "thoth": "./thoth/s14.jpg",
-        "details": "./pages/s14.html"
     },
     {
         "number": 14,

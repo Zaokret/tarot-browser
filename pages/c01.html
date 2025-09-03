@@ -1,168 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Ace of Cups</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
-<style>
-  /* Base */
-  body {
-    font-family: 'Roboto', sans-serif;
-    background: radial-gradient(circle at top, #fdf6f0, #f0e8e0);
-    color: #333;
-    margin: 0;
-    padding: 0;
-  }
 
-  main {
-    max-width: 900px;
-    margin: 3rem auto;
-    padding: 1rem 2rem;
-    background: rgba(255,255,255,0.95);
-    border-radius: 12px;
-    box-shadow: 0 12px 36px rgba(0,0,0,0.2);
-  }
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Ace of Cups</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body { font-family: sans-serif; max-width: 800px; margin: 2rem auto; line-height: 1.6; padding: 0 1rem; }
+      pre { background: #f4f4f4; padding: 1rem; overflow-x: auto; }
+      code { background: #f4f4f4; padding: 0.2rem 0.4rem; }
+      h1,h2,h3,h4,h5,h6 { margin-top: 1.5rem; }
+    </style>
+  </head>
+  <body>
+    <p><strong>Name:</strong> Ace of Cups<br>
+<strong>Number:</strong> 1<br>
+<strong>Astrology:</strong> Water<br>
+<strong>Qabalah:</strong> Kether of He</p>
+<p><audio controls=""><source src="https://clyp.it/ngnl5rzw.mp3?token=781c589a43510434f97d6b5bff3a464b" type="audio/mpeg"></audio></p>
+<p><strong>Chris Gabriel</strong> January 4, 2025</p>
+<p>The Ace of Cups is the fountainhead, the great source from which all the waters in the suit of cups spring. It is the Holy Grail and the Cauldron: the Heart.</p>
+<p><img src="https://images.squarespace-cdn.com/content/v1/65ca8126025b8b2aeb60b542/b760ce0f-cfc3-4ab4-bfea-70b31f4913a7/Screenshot+2025-01-03+at+16.40.51.png" alt=""></p>
+<p>In Rider, we find a golden chalice pouring forth water, held aloft by a divine hand. A dove flies down carrying a communion wafer. The cup is marked mysteriously with an M or W. This is the chalice of communion, the cup that runneth over.</p>
+<p><img src="https://images.squarespace-cdn.com/content/v1/65ca8126025b8b2aeb60b542/e4a4f8ec-ec23-4b6f-8ea3-24068953d66a/Screenshot+2025-01-03+at+16.41.55.png" alt=""></p>
+<p>In Thoth, we find a blue cup with the base of a lotus flower. It is marked with a Vesica Piscis. Water pours forth from the top and bottom of the cup, and all around it are emanations of water, blood, wine, and divine light.</p>
+<p><img src="https://images.squarespace-cdn.com/content/v1/65ca8126025b8b2aeb60b542/83653763-005e-43ad-8e71-963e3b16fbbe/Screenshot+2025-01-03+at+16.41.12.png" alt=""></p>
+<p>In Marseille, we find an ornate, kingly cup. It is adorned in jewels and ornament. Jodorowsky thought it resembled a cathedral with its 7 spires. The central spire bears 3 interwoven circles, which themselves contain 3 circles. This is the Heart as a temple.</p>
+<p>Each of these cards depict, in their own way, the Heart, the Fountain from which all blood flows. In contrast to the Ace of Wands, which is the divine phallus, here we have the divine vulva, and rather than the masturbation genesis of the Egyptians, here we see the birth of the world from the womb of the Great Mother.</p>
+<p>The suit of Cups pertains to Water, and thus our emotions and depths. This being the first card in the suit shows us that the Heart is the central source from which all feelings flow. But let us not forget, Water is Divine, and it brings life to the mundane cup. Before the blood of Christ spilled into the Holy Grail, it was just a cup.</p>
+<p>It is the divine beauty of the Blood that makes a Heart worthy and pure. This is shown in Revelation (an image of which appears in Thoth’s Lust card) as the Cup of Abominations that Babalon carries, one filled with the blood of saints, abominable things and her own filth. A heart of darkness.</p>
+<p>The Ace of Cups is our own Heart, whether it pumps pure love and life, or sour acidic hatred is up to us. When we drink from the Grail, will we receive immortality or be cursed by our own impurity?</p>
+<p>When we pull the Ace of Cups we can expect an emotional experience, a significant dream, conversation, or vision. Our feelings will be brought forth. As Nietzsche writes: <em>Night has come; now all fountains speak more loudly. And my soul too is a fountain.</em></p>
+<p>We must listen to our Hearts and let them flow freely.</p>
+<p>Source: <a href="https://www.tetragrammaton.com/content/aceofcups">Ace of Cups (Tarot Triptych) - Tetragrammaton</a></p>
+<hr>
 
-  h1 {
-    font-family: 'Playfair Display', serif;
-    text-align: center;
-    font-size: 2.8rem;
-    margin-bottom: 0.3rem;
-    color: #8b5e3c;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-  }
-
-  .card-number {
-    text-align: center;
-    font-size: 1.1rem;
-    color: #a47b53;
-    margin-bottom: 2rem;
-  }
-
-  /* Metadata block */
-  .metadata {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    margin-bottom: 2rem;
-    background: #fff4f0;
-    padding: 1rem 1.5rem;
-    border-left: 6px solid #d17a3f;
-    border-radius: 8px;
-  }
-
-  .metadata div {
-    line-height: 1.5;
-  }
-
-  .metadata strong {
-    color: #8b5e3c;
-  }
-
-  /* Audio */
-  audio {
-    width: 100%;
-    margin: 1.5rem 0;
-    border-radius: 6px;
-    outline: none;
-  }
-
-  /* Card images */
-  .card-images {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 2rem 0;
-  }
-
-  .card-images img {
-    max-width: 28%;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-    transition: transform 0.3s, box-shadow 0.3s;
-    cursor: pointer;
-  }
-
-  .card-images img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 12px 28px rgba(0,0,0,0.3);
-  }
-
-  /* Content paragraphs */
-  p {
-    font-size: 1.1rem;
-    line-height: 1.7;
-    margin-bottom: 1.8rem;
-  }
-
-  em {
-    font-style: italic;
-    color: #6b4b3a;
-  }
-
-  /* Source and footer */
-  .source {
-    margin-top: 3rem;
-    font-size: 0.95rem;
-    text-align: center;
-    color: #7a5a42;
-  }
-
-  .source a {
-    color: #a45c36;
-    text-decoration: none;
-    font-weight: bold;
-  }
-
-  .source a:hover {
-    text-decoration: underline;
-  }
-
-  hr {
-    margin: 3rem 0;
-    border: none;
-    height: 1px;
-    background: #e0cfc1;
-  }
-</style>
-</head>
-<body>
-<main>
-  <h1>Ace of Cups</h1>
-  <div class="card-number">Card #1 – Water – Kether of He ה</div>
-
-  <div class="metadata">
-    <div><strong>Astrology:</strong> Water</div>
-    <div><strong>Qabalah:</strong> Kether of He ה</div>
-  </div>
-
-  <audio controls>
-    <source src="https://clyp.it/ngnl5rzw.mp3?token=781c589a43510434f97d6b5bff3a464b" type="audio/mpeg">
-  </audio>
-
-  <div class="card-images">
-    <img src="https://images.squarespace-cdn.com/content/v1/65ca8126025b8b2aeb60b542/b760ce0f-cfc3-4ab4-bfea-70b31f4913a7/Screenshot+2025-01-03+at+16.40.51.png" alt="Rider">
-    <img src="https://images.squarespace-cdn.com/content/v1/65ca8126025b8b2aeb60b542/83653763-005e-43ad-8e71-963e3b16fbbe/Screenshot+2025-01-03+at+16.41.12.png" alt="Thoth">
-    <img src="https://images.squarespace-cdn.com/content/v1/65ca8126025b8b2aeb60b542/e4a4f8ec-ec23-4b6f-8ea3-24068953d66a/Screenshot+2025-01-03+at+16.41.55.png" alt="Marseille">
-  </div>
-
-  <p>The Ace of Cups is the fountainhead, the great source from which all the waters in the suit of cups spring. It is the Holy Grail and the Cauldron: the Heart.</p>
-
-  <p>In Rider, we find a golden chalice pouring forth water, held aloft by a divine hand. A dove flies down carrying a communion wafer. The cup is marked mysteriously with an M or W. This is the chalice of communion, the cup that runneth over.</p>
-
-  <p>In Thoth, we find a blue cup with the base of a lotus flower. It is marked with a Vesica Piscis. Water pours forth from the top and bottom of the cup, and all around it are emanations of water, blood, wine, and divine light.</p>
-
-  <p>In Marseille, we find an ornate, kingly cup. It is adorned in jewels and ornament. Jodorowsky thought it resembled a cathedral with its 7 spires. The central spire bears 3 interwoven circles, which themselves contain 3 circles. This is the Heart as a temple.</p>
-
-  <p>Each of these cards depict, in their own way, the Heart, the Fountain from which all blood flows. In contrast to the Ace of Wands, which is the divine phallus, here we have the divine vulva, and rather than the masturbation genesis of the Egyptians, here we see the birth of the world from the womb of the Great Mother.</p>
-
-  <p>The suit of Cups pertains to Water, and thus our emotions and depths. This being the first card in the suit shows us that the Heart is the central source from which all feelings flow. But let us not forget, Water is Divine, and it brings life to the mundane cup. Before the blood of Christ spilled into the Holy Grail, it was just a cup.</p>
-
-  <hr>
-  <div class="source">
-    Source: <a href="https://www.tetragrammaton.com/content/aceofcups">Ace of Cups (Tarot Triptych) - Tetragrammaton</a>
-  </div>
-</main>
-</body>
-</html>
+    <script src="relative-nav.js"></script>
+  </body>
+  </html>
+  
