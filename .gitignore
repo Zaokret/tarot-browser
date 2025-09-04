@@ -6,3 +6,5 @@ fix-json.js
 md-to-html.mjs
 package.json
 pnpm-lock.yaml
+generate-shell.js
+shell.html

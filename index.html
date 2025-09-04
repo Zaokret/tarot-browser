@@ -7,130 +7,7 @@
 
 <!-- CDN: Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
-<style>
-  body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    background: #1a1a1a;
-    color: #f5f5f5;
-  }
-
-  header {
-    text-align: center;
-    padding: 1rem;
-    background: #111;
-    font-size: 1.8rem;
-    letter-spacing: 1px;
-  }
-
-  .controls {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    flex-wrap: wrap;
-    margin: 1rem 0;
-  }
-
-  select, input[type="text"] {
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 0.5rem;
-    padding: 1rem;
-  }
-
-  .card {
-    border-radius: 12px;
-    overflow: hidden;
-    cursor: pointer;
-    transition: transform 0.2s, box-shadow 0.2s;
-  }
-
-  .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
-  }
-
-  .card img {
-    display: block;
-    border-bottom: 1px solid #333;
-  }
-
-img {
-    max-height: 300px;
-    width: auto;
-    display: block;
-    margin: auto;
-    height: 100%;
-}
-
-  .card-info {
-    text-align: center;
-    padding: 0 2rem;
-  }
-
-  .card-info h3 {
-    margin: 0.2rem 0;
-    font-size: 1.1rem;
-  }
-
-  .card-info p {
-    margin: 0.2rem 0;
-    font-size: 0.85rem;
-    color: #aaa;
-  }
-
-  .deck-toggle {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
-    gap: 0.5rem;
-  }
-
-  .deck-toggle button {
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 5px;
-    background: #333;
-    color: #f5f5f5;
-    cursor: pointer;
-    transition: background 0.2s;
-  }
-
-  .deck-toggle button.active {
-    background: #f5f5f5;
-    color: #111;
-  }
-
-  .input-buttons {
-    transform: scale(2);
-    padding: 0;
-    height: 16px;
-    padding: 3px 2px 7px 2px;
-    text-align: center;
-    vertical-align: middle;
-    display: inline-block;
-    cursor: pointer;
-  }
-
-  #sticky-footer {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      text-align: center;
-      z-index: 100;
-      background: black;
-    }
-</style>
+<link rel="stylesheet" href="index.css">
 </head>
 <body>
 
@@ -156,55 +33,975 @@ img {
 </div>
 </div>
 
-<div class="grid" id="cardGrid"></div>
+<div id="cardGrid" class="grid">
+    <div class="card">
+        <a target="_blank" href="./pages/m00.html" class="card-link-wrapper">
+            <img class="card-image" id="m00" src="./rider/m00.jpg" alt="The Fool" style="background: rgb(80,220,160)">
+            <div class="card-info">
+                <h3>The Fool</h3>
+                <p><strong>Suit:</strong> Major</p>
+                <p><strong>Astrology:</strong> Air</p>
+                <p><strong>Qabalah:</strong> Aleph א</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/m01.html" class="card-link-wrapper">
+            <img class="card-image" id="m01" src="./rider/m01.jpg" alt="The Magician"
+                style="background: rgb(240,240,150)">
+            <div class="card-info">
+                <h3>The Magician</h3>
+                <p><strong>Suit:</strong> Major</p>
+                <p><strong>Astrology:</strong> Mercury</p>
+                <p><strong>Qabalah:</strong> Beth ב</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/m02.html" class="card-link-wrapper">
+            <img class="card-image" id="m02" src="./rider/m02.jpg" alt="The Priestess"
+                style="background: rgb(240,240,150)">
+            <div class="card-info">
+                <h3>The Priestess</h3>
+                <p><strong>Suit:</strong> Major</p>
+                <p><strong>Astrology:</strong> Moon</p>
+                <p><strong>Qabalah:</strong> Gimel ג</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/m03.html" class="card-link-wrapper">
+            <img class="card-image" id="m03" src="./rider/m03.jpg" alt="The Empress" style="background: rgb(200,80,80)">
+            <div class="card-info">
+                <h3>The Empress</h3>
+                <p><strong>Suit:</strong> Major</p>
+                <p><strong>Astrology:</strong> Venus</p>
+                <p><strong>Qabalah:</strong> Daleth ד</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/m04.html" class="card-link-wrapper">
+            <img class="card-image" id="m04" src="./rider/m04.jpg" alt="The Emperor"
+                style="background: rgb(80,220,160)">
+            <div class="card-info">
+                <h3>The Emperor</h3>
+                <p><strong>Suit:</strong> Major</p>
+                <p><strong>Astrology:</strong> Aries</p>
+                <p><strong>Qabalah:</strong> He ה (or Tzaddi צ)</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/m05.html" class="card-link-wrapper">
+            <img class="card-image" id="m05" src="./rider/m05.jpg" alt="The Hierophant"
+                style="background: rgb(100,220,100)">
+            <div class="card-info">
+                <h3>The Hierophant</h3>
+                <p><strong>Suit:</strong> Major</p>
+                <p><strong>Astrology:</strong> Taurus</p>
+                <p><strong>Qabalah:</strong> Vau ו</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/m06.html" class="card-link-wrapper">
+            <img class="card-image" id="m06" src="./rider/m06.jpg" alt="The Lovers"
+                style="background: rgb(100,100,220)">
+            <div class="card-info">
+                <h3>The Lovers</h3>
+                <p><strong>Suit:</strong> Major</p>
+                <p><strong>Astrology:</strong> Gemini</p>
+                <p><strong>Qabalah:</strong> Zain ז</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/m07.html" class="card-link-wrapper">
+            <img class="card-image" id="m07" src="./rider/m07.jpg" alt="The Chariot"
+                style="background: rgb(160,80,220)">
+            <div class="card-info">
+                <h3>The Chariot</h3>
+                <p><strong>Suit:</strong> Major</p>
+                <p><strong>Astrology:</strong> Cancer</p>
+                <p><strong>Qabalah:</strong> Cheth ח</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/m08.html" class="card-link-wrapper">
+            <img class="card-image" id="m08" src="./rider/m08.jpg" alt="Strength" style="background: rgb(100,220,100)">
+            <div class="card-info">
+                <h3>Strength</h3>
+                <p><strong>Suit:</strong> Major</p>
+                <p><strong>Astrology:</strong> Leo</p>
+                <p><strong>Qabalah:</strong> Teth ט</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/m09.html" class="card-link-wrapper">
+            <img class="card-image" id="m09" src="./rider/m09.jpg" alt="The Hermit" style="background: rgb(80,220,160)">
+            <div class="card-info">
+                <h3>The Hermit</h3>
+                <p><strong>Suit:</strong> Major</p>
+                <p><strong>Astrology:</strong> Virgo</p>
+                <p><strong>Qabalah:</strong> Yod י</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/m10.html" class="card-link-wrapper">
+            <img class="card-image" id="m10" src="./rider/m10.jpg" alt="Wheel of Fortune"
+                style="background: rgb(240,240,150)">
+            <div class="card-info">
+                <h3>Wheel of Fortune</h3>
+                <p><strong>Suit:</strong> Major</p>
+                <p><strong>Astrology:</strong> Jupiter</p>
+                <p><strong>Qabalah:</strong> Kaph כ</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/m11.html" class="card-link-wrapper">
+            <img class="card-image" id="m11" src="./rider/m11.jpg" alt="Justice" style="background: rgb(100,100,220)">
+            <div class="card-info">
+                <h3>Justice</h3>
+                <p><strong>Suit:</strong> Major</p>
+                <p><strong>Astrology:</strong> Libra</p>
+                <p><strong>Qabalah:</strong> Lamed ל</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/m12.html" class="card-link-wrapper">
+            <img class="card-image" id="m12" src="./rider/m12.jpg" alt="The Hanged Man"
+                style="background: rgb(200,80,80)">
+            <div class="card-info">
+                <h3>The Hanged Man</h3>
+                <p><strong>Suit:</strong> Major</p>
+                <p><strong>Astrology:</strong> Water</p>
+                <p><strong>Qabalah:</strong> Mem מ</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/m13.html" class="card-link-wrapper">
+            <img class="card-image" id="m13" src="./rider/m13.jpg" alt="Death" style="background: rgb(220,100,100)">
+            <div class="card-info">
+                <h3>Death</h3>
+                <p><strong>Suit:</strong> Major</p>
+                <p><strong>Astrology:</strong> Scorpio</p>
+                <p><strong>Qabalah:</strong> Nun נ</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/m14.html" class="card-link-wrapper">
+            <img class="card-image" id="m14" src="./rider/m14.jpg" alt="Temperance"
+                style="background: rgb(255,230,150)">
+            <div class="card-info">
+                <h3>Temperance</h3>
+                <p><strong>Suit:</strong> Major</p>
+                <p><strong>Astrology:</strong> Sagittarius</p>
+                <p><strong>Qabalah:</strong> Samekh ס</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/m15.html" class="card-link-wrapper">
+            <img class="card-image" id="m15" src="./rider/m15.jpg" alt="The Devil" style="background: rgb(200,80,80)">
+            <div class="card-info">
+                <h3>The Devil</h3>
+                <p><strong>Suit:</strong> Major</p>
+                <p><strong>Astrology:</strong> Capricorn</p>
+                <p><strong>Qabalah:</strong> Ayin ע</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/m16.html" class="card-link-wrapper">
+            <img class="card-image" id="m16" src="./rider/m16.jpg" alt="The Tower" style="background: rgb(220,120,180)">
+            <div class="card-info">
+                <h3>The Tower</h3>
+                <p><strong>Suit:</strong> Major</p>
+                <p><strong>Astrology:</strong> Mars</p>
+                <p><strong>Qabalah:</strong> Pe פ</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/m17.html" class="card-link-wrapper">
+            <img class="card-image" id="m17" src="./rider/m17.jpg" alt="The Star" style="background: rgb(200,80,80)">
+            <div class="card-info">
+                <h3>The Star</h3>
+                <p><strong>Suit:</strong> Major</p>
+                <p><strong>Astrology:</strong> Aquarius</p>
+                <p><strong>Qabalah:</strong> Tzaddi צ (or He ה)</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/m18.html" class="card-link-wrapper">
+            <img class="card-image" id="m18" src="./rider/m18.jpg" alt="The Moon" style="background: rgb(240,240,150)">
+            <div class="card-info">
+                <h3>The Moon</h3>
+                <p><strong>Suit:</strong> Major</p>
+                <p><strong>Astrology:</strong> Pisces</p>
+                <p><strong>Qabalah:</strong> Qoph ק</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/m19.html" class="card-link-wrapper">
+            <img class="card-image" id="m19" src="./rider/m19.jpg" alt="The Sun" style="background: rgb(240,240,150)">
+            <div class="card-info">
+                <h3>The Sun</h3>
+                <p><strong>Suit:</strong> Major</p>
+                <p><strong>Astrology:</strong> Sun</p>
+                <p><strong>Qabalah:</strong> Resh ר</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/m20.html" class="card-link-wrapper">
+            <img class="card-image" id="m20" src="./rider/m20.jpg" alt="The Aeon (Judgement)"
+                style="background: rgb(240,240,150)">
+            <div class="card-info">
+                <h3>The Aeon (Judgement)</h3>
+                <p><strong>Suit:</strong> Major</p>
+                <p><strong>Astrology:</strong> Fire / Pluto</p>
+                <p><strong>Qabalah:</strong> Shin ש</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/m21.html" class="card-link-wrapper">
+            <img class="card-image" id="m21" src="./rider/m21.jpg" alt="The World (Universe)"
+                style="background: rgb(240,240,150)">
+            <div class="card-info">
+                <h3>The World (Universe)</h3>
+                <p><strong>Suit:</strong> Major</p>
+                <p><strong>Astrology:</strong> Saturn</p>
+                <p><strong>Qabalah:</strong> Tau ת</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/w01.html" class="card-link-wrapper">
+            <img class="card-image" id="w01" src="./rider/w01.jpg" alt="Ace of Wands"
+                style="background: rgb(80,220,160)">
+            <div class="card-info">
+                <h3>Ace of Wands</h3>
+                <p><strong>Suit:</strong> Wands</p>
+                <p><strong>Astrology:</strong> Fire</p>
+                <p><strong>Qabalah:</strong> Kether of Yod י</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/w02.html" class="card-link-wrapper">
+            <img class="card-image" id="w02" src="./rider/w02.jpg" alt="Two of Wands"
+                style="background: rgb(100,100,220)">
+            <div class="card-info">
+                <h3>Two of Wands</h3>
+                <p><strong>Suit:</strong> Wands</p>
+                <p><strong>Astrology:</strong> Mars in Aries</p>
+                <p><strong>Qabalah:</strong> Chokmah of Yod י</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/w03.html" class="card-link-wrapper">
+            <img class="card-image" id="w03" src="./rider/w03.jpg" alt="Three of Wands"
+                style="background: rgb(100,100,220)">
+            <div class="card-info">
+                <h3>Three of Wands</h3>
+                <p><strong>Suit:</strong> Wands</p>
+                <p><strong>Astrology:</strong> Sun in Aries</p>
+                <p><strong>Qabalah:</strong> Binah of Yod י</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/w04.html" class="card-link-wrapper">
+            <img class="card-image" id="w04" src="./rider/w04.jpg" alt="Four of Wands"
+                style="background: rgb(100,220,100)">
+            <div class="card-info">
+                <h3>Four of Wands</h3>
+                <p><strong>Suit:</strong> Wands</p>
+                <p><strong>Astrology:</strong> Venus in Aries</p>
+                <p><strong>Qabalah:</strong> Chesed of Yod י</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/w05.html" class="card-link-wrapper">
+            <img class="card-image" id="w05" src="./rider/w05.jpg" alt="Five of Wands"
+                style="background: rgb(240,240,150)">
+            <div class="card-info">
+                <h3>Five of Wands</h3>
+                <p><strong>Suit:</strong> Wands</p>
+                <p><strong>Astrology:</strong> Saturn in Leo</p>
+                <p><strong>Qabalah:</strong> Gevurah of Yod י</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/w06.html" class="card-link-wrapper">
+            <img class="card-image" id="w06" src="./rider/w06.jpg" alt="Six of Wands"
+                style="background: rgb(255,230,150)">
+            <div class="card-info">
+                <h3>Six of Wands</h3>
+                <p><strong>Suit:</strong> Wands</p>
+                <p><strong>Astrology:</strong> Jupiter in Leo</p>
+                <p><strong>Qabalah:</strong> Tiphereth of Yod י</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/w07.html" class="card-link-wrapper">
+            <img class="card-image" id="w07" src="./rider/w07.jpg" alt="Seven of Wands"
+                style="background: rgb(220,100,100)">
+            <div class="card-info">
+                <h3>Seven of Wands</h3>
+                <p><strong>Suit:</strong> Wands</p>
+                <p><strong>Astrology:</strong> Mars in Leo</p>
+                <p><strong>Qabalah:</strong> Netzach of Yod י</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/w08.html" class="card-link-wrapper">
+            <img class="card-image" id="w08" src="./rider/w08.jpg" alt="Eight of Wands"
+                style="background: rgb(100,100,220)">
+            <div class="card-info">
+                <h3>Eight of Wands</h3>
+                <p><strong>Suit:</strong> Wands</p>
+                <p><strong>Astrology:</strong> Mercury in Sagittarius</p>
+                <p><strong>Qabalah:</strong> Hod of Yod י</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/w09.html" class="card-link-wrapper">
+            <img class="card-image" id="w09" src="./rider/w09.jpg" alt="Nine of Wands"
+                style="background: rgb(220,100,100)">
+            <div class="card-info">
+                <h3>Nine of Wands</h3>
+                <p><strong>Suit:</strong> Wands</p>
+                <p><strong>Astrology:</strong> Moon in Sagittarius</p>
+                <p><strong>Qabalah:</strong> Yesod of Yod י</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/w10.html" class="card-link-wrapper">
+            <img class="card-image" id="w10" src="./rider/w10.jpg" alt="Ten of Wands"
+                style="background: rgb(220,120,180)">
+            <div class="card-info">
+                <h3>Ten of Wands</h3>
+                <p><strong>Suit:</strong> Wands</p>
+                <p><strong>Astrology:</strong> Saturn in Sagittarius</p>
+                <p><strong>Qabalah:</strong> Malkuth of Yod י</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/w11.html" class="card-link-wrapper">
+            <img class="card-image" id="w11" src="./rider/w11.jpg" alt="Page of Wands"
+                style="background: rgb(220,100,100)">
+            <div class="card-info">
+                <h3>Page of Wands</h3>
+                <p><strong>Suit:</strong> Wands</p>
+                <p><strong>Astrology:</strong> Earth of Fire</p>
+                <p><strong>Qabalah:</strong> He ה of Yod י</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/w12.html" class="card-link-wrapper">
+            <img class="card-image" id="w12" src="./rider/w12.jpg" alt="Knight of Wands"
+                style="background: rgb(220,120,180)">
+            <div class="card-info">
+                <h3>Knight of Wands</h3>
+                <p><strong>Suit:</strong> Wands</p>
+                <p><strong>Astrology:</strong> Sagittarius</p>
+                <p><strong>Qabalah:</strong> Yod י of Yod י</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/w13.html" class="card-link-wrapper">
+            <img class="card-image" id="w13" src="./rider/w13.jpg" alt="Queen of Wands"
+                style="background: rgb(80,220,160)">
+            <div class="card-info">
+                <h3>Queen of Wands</h3>
+                <p><strong>Suit:</strong> Wands</p>
+                <p><strong>Astrology:</strong> Aries, Water of Fire</p>
+                <p><strong>Qabalah:</strong> He ה of Yod י</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/w14.html" class="card-link-wrapper">
+            <img class="card-image" id="w14" src="./rider/w14.jpg" alt="King / Prince of Wands"
+                style="background: rgb(80,220,160)">
+            <div class="card-info">
+                <h3>King / Prince of Wands</h3>
+                <p><strong>Suit:</strong> Wands</p>
+                <p><strong>Astrology:</strong> Leo, Air of Fire</p>
+                <p><strong>Qabalah:</strong> Vau ו of Yod י</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/c01.html" class="card-link-wrapper">
+            <img class="card-image" id="c01" src="./rider/c01.jpg" alt="Ace of Cups"
+                style="background: rgb(100,220,100)">
+            <div class="card-info">
+                <h3>Ace of Cups</h3>
+                <p><strong>Suit:</strong> Cups</p>
+                <p><strong>Astrology:</strong> Water</p>
+                <p><strong>Qabalah:</strong> Kether of He ה</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/c02.html" class="card-link-wrapper">
+            <img class="card-image" id="c02" src="./rider/c02.jpg" alt="Two of Cups"
+                style="background: rgb(80,220,160)">
+            <div class="card-info">
+                <h3>Two of Cups</h3>
+                <p><strong>Suit:</strong> Cups</p>
+                <p><strong>Astrology:</strong> Venus in Cancer</p>
+                <p><strong>Qabalah:</strong> Chokmah of He ה</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/c03.html" class="card-link-wrapper">
+            <img class="card-image" id="c03" src="./rider/c03.jpg" alt="Three of Cups"
+                style="background: rgb(80,220,160)">
+            <div class="card-info">
+                <h3>Three of Cups</h3>
+                <p><strong>Suit:</strong> Cups</p>
+                <p><strong>Astrology:</strong> Mercury in Cancer</p>
+                <p><strong>Qabalah:</strong> Binah of He ה</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/c04.html" class="card-link-wrapper">
+            <img class="card-image" id="c04" src="./rider/c04.jpg" alt="Four of Cups"
+                style="background: rgb(100,100,220)">
+            <div class="card-info">
+                <h3>Four of Cups</h3>
+                <p><strong>Suit:</strong> Cups</p>
+                <p><strong>Astrology:</strong> Moon in Cancer</p>
+                <p><strong>Qabalah:</strong> Chesed of He ה</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/c05.html" class="card-link-wrapper">
+            <img class="card-image" id="c05" src="./rider/c05.jpg" alt="Five of Cups"
+                style="background: rgb(80,220,160)">
+            <div class="card-info">
+                <h3>Five of Cups</h3>
+                <p><strong>Suit:</strong> Cups</p>
+                <p><strong>Astrology:</strong> Mars in Scorpio</p>
+                <p><strong>Qabalah:</strong> Gevurah of He ה</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/c06.html" class="card-link-wrapper">
+            <img class="card-image" id="c06" src="./rider/c06.jpg" alt="Six of Cups"
+                style="background: rgb(100,220,100)">
+            <div class="card-info">
+                <h3>Six of Cups</h3>
+                <p><strong>Suit:</strong> Cups</p>
+                <p><strong>Astrology:</strong> Sun in Scorpio</p>
+                <p><strong>Qabalah:</strong> Tiphereth of He ה</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/c07.html" class="card-link-wrapper">
+            <img class="card-image" id="c07" src="./rider/c07.jpg" alt="Seven of Cups"
+                style="background: rgb(100,220,100)">
+            <div class="card-info">
+                <h3>Seven of Cups</h3>
+                <p><strong>Suit:</strong> Cups</p>
+                <p><strong>Astrology:</strong> Venus in Scorpio</p>
+                <p><strong>Qabalah:</strong> Netzach of He ה</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/c08.html" class="card-link-wrapper">
+            <img class="card-image" id="c08" src="./rider/c08.jpg" alt="Eight of Cups"
+                style="background: rgb(100,100,220)">
+            <div class="card-info">
+                <h3>Eight of Cups</h3>
+                <p><strong>Suit:</strong> Cups</p>
+                <p><strong>Astrology:</strong> Saturn in Pisces</p>
+                <p><strong>Qabalah:</strong> Hod of He ה</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/c09.html" class="card-link-wrapper">
+            <img class="card-image" id="c09" src="./rider/c09.jpg" alt="Nine of Cups"
+                style="background: rgb(200,80,80)">
+            <div class="card-info">
+                <h3>Nine of Cups</h3>
+                <p><strong>Suit:</strong> Cups</p>
+                <p><strong>Astrology:</strong> Jupiter in Pisces</p>
+                <p><strong>Qabalah:</strong> Yesod of He ה</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/c10.html" class="card-link-wrapper">
+            <img class="card-image" id="c10" src="./rider/c10.jpg" alt="Ten of Cups"
+                style="background: rgb(255,230,150)">
+            <div class="card-info">
+                <h3>Ten of Cups</h3>
+                <p><strong>Suit:</strong> Cups</p>
+                <p><strong>Astrology:</strong> Mars in Pisces</p>
+                <p><strong>Qabalah:</strong> Malkuth of He ה</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/c11.html" class="card-link-wrapper">
+            <img class="card-image" id="c11" src="./rider/c11.jpg" alt="Page / Princess of Cups"
+                style="background: rgb(100,100,220)">
+            <div class="card-info">
+                <h3>Page / Princess of Cups</h3>
+                <p><strong>Suit:</strong> Cups</p>
+                <p><strong>Astrology:</strong> Earth of Water</p>
+                <p><strong>Qabalah:</strong> He ה of He ה</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/c12.html" class="card-link-wrapper">
+            <img class="card-image" id="c12" src="./rider/c12.jpg" alt="Knight of Cups"
+                style="background: rgb(160,80,220)">
+            <div class="card-info">
+                <h3>Knight of Cups</h3>
+                <p><strong>Suit:</strong> Cups</p>
+                <p><strong>Astrology:</strong> Pisces, Fire of Water</p>
+                <p><strong>Qabalah:</strong> Yod י of He ה</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/c13.html" class="card-link-wrapper">
+            <img class="card-image" id="c13" src="./rider/c13.jpg" alt="Queen of Cups"
+                style="background: rgb(200,80,80)">
+            <div class="card-info">
+                <h3>Queen of Cups</h3>
+                <p><strong>Suit:</strong> Cups</p>
+                <p><strong>Astrology:</strong> Cancer, Water of Water</p>
+                <p><strong>Qabalah:</strong> He ה of He ה</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/c14.html" class="card-link-wrapper">
+            <img class="card-image" id="c14" src="./rider/c14.jpg" alt="King / Prince of Cups"
+                style="background: rgb(220,120,180)">
+            <div class="card-info">
+                <h3>King / Prince of Cups</h3>
+                <p><strong>Suit:</strong> Cups</p>
+                <p><strong>Astrology:</strong> Scorpio, Air of Water</p>
+                <p><strong>Qabalah:</strong> Vau ו of He ה</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/s01.html" class="card-link-wrapper">
+            <img class="card-image" id="s01" src="./rider/s01.jpg" alt="Ace of Swords"
+                style="background: rgb(200,80,80)">
+            <div class="card-info">
+                <h3>Ace of Swords</h3>
+                <p><strong>Suit:</strong> Swords</p>
+                <p><strong>Astrology:</strong> Air</p>
+                <p><strong>Qabalah:</strong> Kether of Vau ו</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/s02.html" class="card-link-wrapper">
+            <img class="card-image" id="s02" src="./rider/s02.jpg" alt="Two of Swords"
+                style="background: rgb(100,220,100)">
+            <div class="card-info">
+                <h3>Two of Swords</h3>
+                <p><strong>Suit:</strong> Swords</p>
+                <p><strong>Astrology:</strong> Moon in Libra</p>
+                <p><strong>Qabalah:</strong> Chokmah of Vau ו</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/s03.html" class="card-link-wrapper">
+            <img class="card-image" id="s03" src="./rider/s03.jpg" alt="Three of Swords"
+                style="background: rgb(160,80,220)">
+            <div class="card-info">
+                <h3>Three of Swords</h3>
+                <p><strong>Suit:</strong> Swords</p>
+                <p><strong>Astrology:</strong> Saturn in Libra</p>
+                <p><strong>Qabalah:</strong> Binah of Vau ו</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/s04.html" class="card-link-wrapper">
+            <img class="card-image" id="s04" src="./rider/s04.jpg" alt="Four of Swords"
+                style="background: rgb(220,100,100)">
+            <div class="card-info">
+                <h3>Four of Swords</h3>
+                <p><strong>Suit:</strong> Swords</p>
+                <p><strong>Astrology:</strong> Jupiter in Libra</p>
+                <p><strong>Qabalah:</strong> Chesed of Vau ו</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/s05.html" class="card-link-wrapper">
+            <img class="card-image" id="s05" src="./rider/s05.jpg" alt="Five of Swords"
+                style="background: rgb(100,100,220)">
+            <div class="card-info">
+                <h3>Five of Swords</h3>
+                <p><strong>Suit:</strong> Swords</p>
+                <p><strong>Astrology:</strong> Venus in Aquarius</p>
+                <p><strong>Qabalah:</strong> Gevurah of Vau ו</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/s06.html" class="card-link-wrapper">
+            <img class="card-image" id="s06" src="./rider/s06.jpg" alt="Six of Swords"
+                style="background: rgb(220,100,100)">
+            <div class="card-info">
+                <h3>Six of Swords</h3>
+                <p><strong>Suit:</strong> Swords</p>
+                <p><strong>Astrology:</strong> Mercury in Aquarius</p>
+                <p><strong>Qabalah:</strong> Tiphereth of Vau ו</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/s07.html" class="card-link-wrapper">
+            <img class="card-image" id="s07" src="./rider/s07.jpg" alt="Seven of Swords"
+                style="background: rgb(160,80,220)">
+            <div class="card-info">
+                <h3>Seven of Swords</h3>
+                <p><strong>Suit:</strong> Swords</p>
+                <p><strong>Astrology:</strong> Moon in Aquarius</p>
+                <p><strong>Qabalah:</strong> Netzach of Vau ו</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/s08.html" class="card-link-wrapper">
+            <img class="card-image" id="s08" src="./rider/s08.jpg" alt="Eight of Swords"
+                style="background: rgb(240,240,150)">
+            <div class="card-info">
+                <h3>Eight of Swords</h3>
+                <p><strong>Suit:</strong> Swords</p>
+                <p><strong>Astrology:</strong> Jupiter in Gemini</p>
+                <p><strong>Qabalah:</strong> Hod of Vau ו</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/s09.html" class="card-link-wrapper">
+            <img class="card-image" id="s09" src="./rider/s09.jpg" alt="Nine of Swords"
+                style="background: rgb(100,100,220)">
+            <div class="card-info">
+                <h3>Nine of Swords</h3>
+                <p><strong>Suit:</strong> Swords</p>
+                <p><strong>Astrology:</strong> Mars in Gemini</p>
+                <p><strong>Qabalah:</strong> Yesod of Vau ו</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/s10.html" class="card-link-wrapper">
+            <img class="card-image" id="s10" src="./rider/s10.jpg" alt="Ten of Swords"
+                style="background: rgb(100,100,220)">
+            <div class="card-info">
+                <h3>Ten of Swords</h3>
+                <p><strong>Suit:</strong> Swords</p>
+                <p><strong>Astrology:</strong> Sun in Gemini</p>
+                <p><strong>Qabalah:</strong> Malkuth of Vau ו</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/s11.html" class="card-link-wrapper">
+            <img class="card-image" id="s11" src="./rider/s11.jpg" alt="Page of Swords"
+                style="background: rgb(200,80,80)">
+            <div class="card-info">
+                <h3>Page of Swords</h3>
+                <p><strong>Suit:</strong> Swords</p>
+                <p><strong>Astrology:</strong> Earth of Air</p>
+                <p><strong>Qabalah:</strong> He ה of Vau ו</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/s12.html" class="card-link-wrapper">
+            <img class="card-image" id="s12" src="./rider/s12.jpg" alt="Knight of Swords"
+                style="background: rgb(80,220,160)">
+            <div class="card-info">
+                <h3>Knight of Swords</h3>
+                <p><strong>Suit:</strong> Swords</p>
+                <p><strong>Astrology:</strong> Gemini</p>
+                <p><strong>Qabalah:</strong> Yod י of Vau ו</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/s13.html" class="card-link-wrapper">
+            <img class="card-image" id="s13" src="./rider/s13.jpg" alt="Queen of Swords"
+                style="background: rgb(80,220,160)">
+            <div class="card-info">
+                <h3>Queen of Swords</h3>
+                <p><strong>Suit:</strong> Swords</p>
+                <p><strong>Astrology:</strong> Libra, Water of Air</p>
+                <p><strong>Qabalah:</strong> He ה of Vau ו</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/s14.html" class="card-link-wrapper">
+            <img class="card-image" id="s14" src="./rider/s14.jpg" alt="King of Swords"
+                style="background: rgb(100,220,100)">
+            <div class="card-info">
+                <h3>King of Swords</h3>
+                <p><strong>Suit:</strong> Swords</p>
+                <p><strong>Astrology:</strong> Aquarius</p>
+                <p><strong>Qabalah:</strong> Vau ו of Vau ו</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/d01.html" class="card-link-wrapper">
+            <img class="card-image" id="d01" src="./rider/d01.jpg" alt="Ace of Disks"
+                style="background: rgb(220,120,180)">
+            <div class="card-info">
+                <h3>Ace of Disks</h3>
+                <p><strong>Suit:</strong> Disks</p>
+                <p><strong>Astrology:</strong> Earth</p>
+                <p><strong>Qabalah:</strong> Kether of He ה</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/d02.html" class="card-link-wrapper">
+            <img class="card-image" id="d02" src="./rider/d02.jpg" alt="Two of Disks"
+                style="background: rgb(100,100,220)">
+            <div class="card-info">
+                <h3>Two of Disks</h3>
+                <p><strong>Suit:</strong> Disks</p>
+                <p><strong>Astrology:</strong> Jupiter in Capricorn</p>
+                <p><strong>Qabalah:</strong> Chokmah of He ה</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/d03.html" class="card-link-wrapper">
+            <img class="card-image" id="d03" src="./rider/d03.jpg" alt="Three of Disks"
+                style="background: rgb(100,100,220)">
+            <div class="card-info">
+                <h3>Three of Disks</h3>
+                <p><strong>Suit:</strong> Disks</p>
+                <p><strong>Astrology:</strong> Mars in Capricorn</p>
+                <p><strong>Qabalah:</strong> Binah of He ה</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/d04.html" class="card-link-wrapper">
+            <img class="card-image" id="d04" src="./rider/d04.jpg" alt="Four of Disks"
+                style="background: rgb(255,230,150)">
+            <div class="card-info">
+                <h3>Four of Disks</h3>
+                <p><strong>Suit:</strong> Disks</p>
+                <p><strong>Astrology:</strong> Sun in Capricorn</p>
+                <p><strong>Qabalah:</strong> Chesed of He ה</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/d05.html" class="card-link-wrapper">
+            <img class="card-image" id="d05" src="./rider/d05.jpg" alt="Five of Disks"
+                style="background: rgb(160,80,220)">
+            <div class="card-info">
+                <h3>Five of Disks</h3>
+                <p><strong>Suit:</strong> Disks</p>
+                <p><strong>Astrology:</strong> Mars in Taurus</p>
+                <p><strong>Qabalah:</strong> Gevurah of He ה</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/d06.html" class="card-link-wrapper">
+            <img class="card-image" id="d06" src="./rider/d06.jpg" alt="Six of Disks"
+                style="background: rgb(100,100,220)">
+            <div class="card-info">
+                <h3>Six of Disks</h3>
+                <p><strong>Suit:</strong> Disks</p>
+                <p><strong>Astrology:</strong> Moon in Taurus</p>
+                <p><strong>Qabalah:</strong> Tiphereth of He ה</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/d07.html" class="card-link-wrapper">
+            <img class="card-image" id="d07" src="./rider/d07.jpg" alt="Seven of Disks"
+                style="background: rgb(100,100,220)">
+            <div class="card-info">
+                <h3>Seven of Disks</h3>
+                <p><strong>Suit:</strong> Disks</p>
+                <p><strong>Astrology:</strong> Saturn in Taurus</p>
+                <p><strong>Qabalah:</strong> Netzach of He ה</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/d08.html" class="card-link-wrapper">
+            <img class="card-image" id="d08" src="./rider/d08.jpg" alt="Eight of Disks"
+                style="background: rgb(220,100,100)">
+            <div class="card-info">
+                <h3>Eight of Disks</h3>
+                <p><strong>Suit:</strong> Disks</p>
+                <p><strong>Astrology:</strong> Sun in Virgo</p>
+                <p><strong>Qabalah:</strong> Hod of He ה</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/d09.html" class="card-link-wrapper">
+            <img class="card-image" id="d09" src="./rider/d09.jpg" alt="Nine of Disks"
+                style="background: rgb(200,80,80)">
+            <div class="card-info">
+                <h3>Nine of Disks</h3>
+                <p><strong>Suit:</strong> Disks</p>
+                <p><strong>Astrology:</strong> Venus in Virgo</p>
+                <p><strong>Qabalah:</strong> Yesod of He ה</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/d10.html" class="card-link-wrapper">
+            <img class="card-image" id="d10" src="./rider/d10.jpg" alt="Ten of Disks"
+                style="background: rgb(255,230,150)">
+            <div class="card-info">
+                <h3>Ten of Disks</h3>
+                <p><strong>Suit:</strong> Disks</p>
+                <p><strong>Astrology:</strong> Mercury in Virgo</p>
+                <p><strong>Qabalah:</strong> Malkuth of He ה</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/d11.html" class="card-link-wrapper">
+            <img class="card-image" id="d11" src="./rider/d11.jpg" alt="Page of Disks"
+                style="background: rgb(255,230,150)">
+            <div class="card-info">
+                <h3>Page of Disks</h3>
+                <p><strong>Suit:</strong> Disks</p>
+                <p><strong>Astrology:</strong> Earth of Earth</p>
+                <p><strong>Qabalah:</strong> He ה of He ה</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/d12.html" class="card-link-wrapper">
+            <img class="card-image" id="d12" src="./rider/d12.jpg" alt="Knight of Disks"
+                style="background: rgb(100,100,220)">
+            <div class="card-info">
+                <h3>Knight of Disks</h3>
+                <p><strong>Suit:</strong> Disks</p>
+                <p><strong>Astrology:</strong> Virgo, Fire of Earth</p>
+                <p><strong>Qabalah:</strong> Yod י of He ה</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/d13.html" class="card-link-wrapper">
+            <img class="card-image" id="d13" src="./rider/d13.jpg" alt="Queen of Disks"
+                style="background: rgb(220,120,180)">
+            <div class="card-info">
+                <h3>Queen of Disks</h3>
+                <p><strong>Suit:</strong> Disks</p>
+                <p><strong>Astrology:</strong> Capricorn</p>
+                <p><strong>Qabalah:</strong> He ה of He ה</p>
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a target="_blank" href="./pages/d14.html" class="card-link-wrapper">
+            <img class="card-image" id="d14" src="./rider/d14.jpg" alt="King / Prince of Disks"
+                style="background: rgb(220,120,180)">
+            <div class="card-info">
+                <h3>King / Prince of Disks</h3>
+                <p><strong>Suit:</strong> Disks</p>
+                <p><strong>Astrology:</strong> Taurus</p>
+                <p><strong>Qabalah:</strong> Vau ו of He ה</p>
+            </div>
+        </a>
+    </div>
+</div>
 
 <script>
-  const cachedCards = localStorage.getItem('tb_cards')
-  const req = cachedCards ? Promise.resolve(JSON.parse(cachedCards)) : fetch('index.json').then(res => res.json())
-
-  req.then(cards => {
-  localStorage.setItem('tb_cards', JSON.stringify(cards))
-let currentDeck = 'rider';
-
 const grid = document.getElementById('cardGrid');
 const searchInput = document.getElementById('search');
 const suitFilter = document.getElementById('suitFilter');
 const deckButtons = document.querySelectorAll('.deck-toggle button');
 const randomButton = document.getElementById('random-button');
 const clearButton = document.getElementById('clear-button')
+
+function idFromCard(card) {
+  const letter = card.suit[0].toLowerCase();
+  const numPart = card.number.toString().padStart(2, '0');
+  return letter + numPart
+}
+
+  const cachedCards = localStorage.getItem('tb_cards')
+  const req = cachedCards ? Promise.resolve(JSON.parse(cachedCards)) : fetch('index.json').then(res => res.json())
+
+
+  req.then(cards => {
+  localStorage.setItem('tb_cards', JSON.stringify(cards))
+let currentDeck = 'rider';
+
+
+
 function renderCards() {
   const query = searchInput.value.toLowerCase();
   const suit = suitFilter.value;
-
-  grid.innerHTML = '';
-
-  const filtered = cards.filter(c =>
-    (!suit || c.suit === suit) && c.name.toLowerCase().includes(query)
+  console.log({query, suit, currentDeck})
+  cards.forEach(c => {
+      const cardEl = document.getElementById(idFromCard(c))
+      const toKeep = (!suit || c.suit === suit) && c.name.toLowerCase().includes(query)
+      cardEl.src = c[currentDeck.toLowerCase()]
+      return toKeep ? cardEl.parentElement.parentElement.classList.remove('hide') : cardEl.parentElement.parentElement.classList.add('hide');
+    }
   );
-
-  filtered.forEach(card => {
-    const div = document.createElement('div');
-    div.className = 'card';
-    div.innerHTML = `
-      <img src="${card[currentDeck]}" alt="${card.name}">
-      <div class="card-info">
-        <h3>${card.name}</h3>
-        <p><strong>Suit:</strong> ${card.suit}</p>
-        <p><strong>Astrology:</strong> ${card.astrology}</p>
-        <p><strong>Qabalah:</strong> ${card.qabalah}</p>
-      </div>
-    `;
-    div.addEventListener('click', () => {
-      window.open(card.details, '_blank');
-    });
-    grid.appendChild(div);
-  });
 }
 
 searchInput.addEventListener('input', renderCards);
 suitFilter.addEventListener('change', renderCards);
 randomButton.addEventListener('click', () => {
-  const randomIndex = Math.floor(Math.random() * cards.length);
+  const randomIndex = Math.floor(Math.random() * 78);
   searchInput.value = cards[randomIndex].name
   renderCards()
 })
@@ -224,7 +1021,7 @@ deckButtons.forEach(btn => {
 });
 
 // Initial render
-renderCards();
+// renderCards();
 })
 </script>
 
