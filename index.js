@@ -49,7 +49,6 @@ fetch('index.json').then(res => res.json()).then(data => {
     const cardElements = Array.from(images)
     cards.forEach(card => {
       const cardEl = cardElements.find(el => el.id === idFromCard(card))
-      cardEl.parentElement.dataset.audio = card.audio
       cardEl.parentElement.dataset.details = new URL(card.details, location.origin)
     })
 
