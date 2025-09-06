@@ -5,6 +5,22 @@ const deckButtons = document.querySelectorAll('.deck-toggle button');
 const randomButton = document.getElementById('random-button');
 const clearButton = document.getElementById('clear-button')
 
+function getDeviceType() {
+  const ua = navigator.userAgent || navigator.vendor || window.opera;
+
+  if (/android/i.test(ua)) {
+    return 'mobile';
+  }
+  if (/iPhone|iPad|iPod/i.test(ua)) {
+    return 'mobile';
+  }
+  if (/windows phone/i.test(ua)) {
+    return 'mobile';
+  }
+
+  return 'desktop';
+}
+
 const io = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         const img = entry.target;
@@ -22,12 +38,20 @@ function idFromCard(card) {
     return letter + numPart
 }
 
-const cachedCards = localStorage.getItem('tb_cards')
-const req = cachedCards ? Promise.resolve(JSON.parse(cachedCards)) : fetch('index.json').then(res => res.json())
-
-req.then(cards => {
-    localStorage.setItem('tb_cards', JSON.stringify(cards))
+// const cachedCards = localStorage.getItem('tb_cards')
+// const req = cachedCards ? Promise.resolve(JSON.parse(cachedCards)) : fetch('index.json').then(res => res.json())
+let cards = []
+fetch('index.json').then(res => res.json()).then(data => {
+      cards=data;
+  // localStorage.setItem('tb_cards', JSON.stringify(cards))
     let currentDeck = 'rider';
+
+    const cardElements = Array.from(images)
+    cards.forEach(card => {
+      const cardEl = cardElements.find(el => el.id === idFromCard(card))
+      cardEl.parentElement.dataset.audio = card.audio
+      cardEl.parentElement.dataset.details = new URL(card.details, location.origin)
+    })
 
     function renderCards() {
         const query = searchInput.value.toLowerCase();
@@ -60,15 +84,20 @@ req.then(cards => {
                 if (toKeep) {
                     img.src = c[currentDeck.toLowerCase()]
                 }
-                return toKeep ? img.parentElement.parentElement.classList.remove('hide') : img.parentElement.parentElement.classList.add('hide');
+                return toKeep ? img.parentElement.classList.remove('hide') : img.parentElement.classList.add('hide');
             })
     }
 
     searchInput.addEventListener('input', renderCards);
-    suitFilter.addEventListener('change', renderCards);
+    suitFilter.addEventListener('change', () => {
+      searchInput.value = ''
+      renderCards()
+    });
     randomButton.addEventListener('click', () => {
-        const randomIndex = Math.floor(Math.random() * cards.length);
-        searchInput.value = cards[randomIndex].name
+        const suit = suitFilter.value;
+        const shownCards = cards.filter(card => !suit || card.suit === suit)
+        const randomIndex = Math.floor(Math.random() * shownCards.length);
+        searchInput.value = shownCards[randomIndex].name
         renderCards()
     })
     clearButton.addEventListener('click', () => {
@@ -87,4 +116,109 @@ req.then(cards => {
             }
         });
     });
+
+    Array.from(grid.children).forEach(btn => btn.addEventListener('click', (e) => {
+      const device = getDeviceType();
+      if(device === 'mobile') {
+        window.open(btn.dataset.details, "_blank");
+      } else if(device === 'desktop') {
+        const { title, url } = btn.dataset
+        openWindow(url, title, e.clientX, e.clientY)
+      }
+    }))
 })
+
+
+
+let winCount = 0;
+let offsetX = 0;
+let offsetY = 0;
+let draggingPopover = null;
+let popoverStack = [];
+
+function openWindow(url, title, x, y) {
+  winCount++;
+  const id = "window" + winCount;
+
+  const win = document.createElement("div");
+  win.className = "window";
+  win.id = id;
+  win.style.left = x + 10 + 'px'
+  win.style.top = y + 20 + 'px'
+  win.style.width = "400px";
+  win.style.height = "500px";
+
+  win.innerHTML = `
+    <div class="window-header">
+      <span>${title}</span>
+      <div>
+        <button onclick="openInNewWindow('${id}')">⧉</button>
+        <button onclick="closeWindow('${id}')">✖</button>
+      </div>
+    </div>
+    <div class="window-body">
+      <iframe src="${url}"></iframe>
+    </div>
+  `;
+
+  document.body.appendChild(win);
+
+  popoverStack.push(win);
+  updateZIndices();
+
+  const header = win.querySelector('.window-header');
+  header.addEventListener('mousedown', (e) => {
+    draggingPopover = win;
+    const rect = win.getBoundingClientRect();
+    offsetX = e.clientX - rect.left;
+    offsetY = e.clientY - rect.top;
+
+    document.addEventListener('mousemove', onMouseMove);
+    document.addEventListener('mouseup', onMouseUp);
+  });
+
+  win.addEventListener('mousedown', (e) => {
+    bringToFront(win)
+  });
+}
+
+function closeWindow(id) {
+  const el = document.getElementById(id);
+  if (el) {
+    const index = popoverStack.indexOf(el);
+    if (index !== -1) popoverStack.splice(index, 1);
+    el.remove();
+    updateZIndices();
+  }
+}
+
+function openInNewWindow(id) {
+  const iframe = document.querySelector(`#${id} iframe`);
+  if (iframe) window.open(iframe.src.replace('popups', 'pages'), "_blank");
+}
+
+function onMouseMove(e) {
+  if (!draggingPopover) return;
+  draggingPopover.style.left = `${e.clientX - offsetX}px`;
+  draggingPopover.style.top = `${e.clientY - offsetY}px`;
+}
+
+function onMouseUp() {
+  draggingPopover = null;
+  document.removeEventListener('mousemove', onMouseMove);
+  document.removeEventListener('mouseup', onMouseUp);
+}
+
+function bringToFront(win) {
+    console.log('hello')
+  const index = popoverStack.indexOf(win);
+  if (index !== -1) popoverStack.splice(index, 1);
+  popoverStack.push(win);
+  updateZIndices();
+}
+
+function updateZIndices() {
+  popoverStack.forEach((win, i) => {
+    win.style.zIndex = 10 + i;
+  });
+}
