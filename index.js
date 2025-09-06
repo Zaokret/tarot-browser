@@ -49,7 +49,7 @@ fetch('index.json').then(res => res.json()).then(data => {
     const cardElements = Array.from(images)
     cards.forEach(card => {
       const cardEl = cardElements.find(el => el.id === idFromCard(card))
-      cardEl.parentElement.dataset.details = new URL(card.details, location.origin + '/tarot-browser')
+      cardEl.parentElement.dataset.details = card.details
     })
 
     function renderCards() {
@@ -119,7 +119,7 @@ fetch('index.json').then(res => res.json()).then(data => {
     Array.from(grid.children).forEach(btn => btn.addEventListener('click', (e) => {
       const device = getDeviceType();
       if(device === 'mobile') {
-        window.open(btn.dataset.details, "_blank");
+        window.open(new URL('/tarot-browser'+btn.dataset.details.slice(1), location.origin), "_blank");
       } else if(device === 'desktop') {
         const { title, url } = btn.dataset
         openWindow(url, title, e.clientX, e.clientY)
